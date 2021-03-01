@@ -11,11 +11,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FindOrderComponent } from './find-order/find-order.component';
+import { ManageOrderComponent } from './manage-order/manage-order.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FindOrderComponent
+    FindOrderComponent,
+    ManageOrderComponent
   ],
   imports: [
     BrowserModule,
