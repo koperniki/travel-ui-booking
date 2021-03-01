@@ -1,3 +1,12 @@
+#accardion {
+    width: 100%;
+    margin-left: 1px;
+}
+
+.PanDesk {
+    justify-content: flex-end;
+
+}
 
 .MainWrapper {
     
@@ -8,7 +17,7 @@
 }
 
 .HeaderWrapper {
-    width: 100%;
+    width: 95%;
     height: 100px;
     position: relative;
     margin-top: 20px;
@@ -172,7 +181,7 @@
 }
 
 .SegmentWrapper__block-3MIqkOxlw4 {
-    width: 100%;
+    width: 94.7%;
     padding: 32px 32px 24px 32px;
     background-color: #fff;
     border-radius: 0 0 12px 12px;
