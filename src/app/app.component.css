@@ -1,0 +1,62 @@
+
+.avatar {
+    border-radius: 50%;
+    vertical-align: middle;    
+  }
+
+  .mat-toolbar {
+    background: white;
+    color: rgba(0,0,0,.87);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+
+.UK_IconRound__IconRound {
+    box-sizing: border-box;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    color: inherit;
+    cursor: inherit;
+    background-color: #ffffff;
+    border: 1px solid #eceff5;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#left-nav {
+    margin-left: 10%;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#bottom-nav {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#copyright {
+    max-width: 1126px;
+    height: 99px;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: #222a37;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .2px;
+    margin: 0;
+    padding: 0;
+}
