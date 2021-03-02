@@ -5,11 +5,13 @@
         <mat-grid-tile [colspan]="8" [rowspan]="4" id="input-outside">
             <mat-form-field appearance="legacy" class="input-headline" id="code-input">
                 <mat-label>Поиск бронирования</mat-label>
-                <input matInput placeholder="Введите код из билета">
+                <input matInput placeholder="Введите код из билета" [formControl]="code" required #codeInput>
+                <mat-error> Бронирование не найдено. Проверте правильность введеных символов.</mat-error>
                 <mat-icon matSuffix>manage_search</mat-icon>
                 <mat-hint>5 символов</mat-hint>
+                
               </mat-form-field>
-              <button mat-raised-button id="find-button">Найти</button>
+              <button mat-raised-button id="find-button" (click)="onFind(codeInput.value)">Найти</button>
         </mat-grid-tile>
         
 
