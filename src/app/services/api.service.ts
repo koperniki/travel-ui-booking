@@ -8,7 +8,7 @@ import { User } from '../models/user';
 export class ApiService {
 
  
-  apiUri : string = "https://travel.isnot.dev/bookingapi/";
+  apiUri : string = "https://travel.neostk.com/bookingapi/";
   constructor(private httpClient: HttpClient) { }
 
   Update(user: User) : Promise<any> {
